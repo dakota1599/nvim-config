@@ -32,6 +32,10 @@ local plugins = {
 		tag = '0.1.5',
 		dependencies = { 'nvim-lua/plenary.nvim' },
 	},
+	{
+		"nvim-lualine/lualine.nvim",
+		dependencies = { 'nvim-tree/nvim-web-devicons' },
+	}
 }
 
 local opts = {}
