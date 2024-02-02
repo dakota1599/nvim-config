@@ -55,8 +55,8 @@ local plugins = {
         branch = "master",
         build = "yarn install --frozen-lockfile",
         config = function()
-            require('coc').setup()
-            vim.cmd('CocInstall coc-java coc-json coc-tsserver coc-clangd coc-pulsp')
+            --require('coc').setup()
+            --vim.cmd('CocInstall coc-java coc-json coc-tsserver coc-clangd coc-pulsp')
         end
     }
 }
