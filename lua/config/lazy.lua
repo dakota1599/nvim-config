@@ -35,6 +35,12 @@ local plugins = {
 	{
 		"nvim-lualine/lualine.nvim",
 		dependencies = { 'nvim-tree/nvim-web-devicons' },
+	},
+	{
+		'NvChad/nvim-colorizer.lua',
+		config = function ()
+			require('colorizer').setup()
+		end
 	}
 }
 
