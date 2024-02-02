@@ -4,7 +4,7 @@ local M = {}
 M.setup = function () 
 	vim.opt.number = true
 	vim.opt.smarttab = true
-	vim.cmd("colorscheme terafox")
+	vim.cmd("colorscheme duskfox")
 	vim.g.mapleader = ' '
 	vim.opt.autochdir = true
 	vim.opt.termguicolors = true
