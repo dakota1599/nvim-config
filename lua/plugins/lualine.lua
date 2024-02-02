@@ -1,6 +1,7 @@
 local ll = require('lualine')
 
 ll.setup({
---	options = {
---	}
+	options = {
+		theme = 'everforest'
+	}
 })

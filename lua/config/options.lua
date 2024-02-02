@@ -9,6 +9,12 @@ M.setup = function ()
 	vim.opt.autochdir = true
 	vim.opt.termguicolors = true
 
+	-- Tab settings
+	vim.o.tabstop = 4
+	vim.o.expandtab = true
+	vim.o.softtabstop = 4
+	vim.o.shiftwidth = 4
+
 	-- Keybindings
 	vim.keymap.set('n', '<leader>cc', ':q!<CR>', {silent = true})
 	vim.keymap.set('n', '<C-s>', ':w<CR>', {})
