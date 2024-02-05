@@ -58,7 +58,8 @@ local plugins = {
             --require('coc').setup()
             --vim.cmd('CocInstall coc-java coc-json coc-tsserver coc-clangd coc-pyright')
         end
-    }
+    },
+    { "elentok/format-on-save.nvim" },
 }
 
 local opts = {}
